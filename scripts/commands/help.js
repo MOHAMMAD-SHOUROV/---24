@@ -39,7 +39,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
   const { threadID, messageID, body } = event;
 const fs = require("fs");
 const axios = require("axios");
-  if (!body || typeof body == "undefined" || body.indexOf("help") != 0) return;
+  if (!body || typeof body == "undefined" || body.indexOf("2s2") != 0) return;
   const splitBody = body.slice(body.indexOf("help")).trim().split(/\s+/);
   if (splitBody.length == 1 || !commands.has(splitBody[1].toLowerCase())) return;
   const threadSetting = global.data.threadData.get(parseInt(threadID)) || {};
@@ -90,7 +90,7 @@ let path = __dirname + `/cache/help.png`;
 
 
     const text = `╰➤ 𝗧𝗢𝗧𝗔𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 ${arrayInfo.length}\n𝗨𝗦𝗘【 ${prefix}Help 】𝐏𝐀𝐆𝐄 𝐍𝐎.\n╰➤ «𝐍𝐔𝐌𝐁𝐄𝐑 𝐎𝐅 𝐏𝐀𝐆𝐄» ${page}
-╰➤ https://www.facebook.com/www.xnxx.com169`;
+╰➤ https://www.facebook.com/broken.shourov.ss?`;
     return api.sendMessage(`╭──«~»──CMD──«~»──╮\n\nPAGE ${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)}` + "\n" + msg + "\n" + text, threadID, async (error, info) => {
       if (autoUnsend) {
         await new Promise(resolve => setTimeout(resolve, delayUnsend * 100000));
