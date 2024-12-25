@@ -36,7 +36,7 @@ module.exports.run = async ({ api, event }) => {
           let path = __dirname + `/nayan/${Date.now()}.mp4`;
           global.nodemodule["fs"].writeFileSync(path, Buffer.from(ress.data, 'utf-8'));
           api.sendMessage({
-            body: "☆《SHAIRI》☆",
+            body: "☆《SHAIRI_𝐤𝐢𝐧𝐠 𝐬𝐡𝐨𝐮𝐫𝐨𝐯》☆",
             attachment: global.nodemodule["fs"].createReadStream(path)
           }, event.threadID, () => global.nodemodule["fs"].unlinkSync(path), event.messageID);
           return;
