@@ -1,4 +1,4 @@
-const fs = require("fs");
+𝐫const fs = require("fs");
 module.exports = {
   config:{
 	name: "😒",
@@ -18,7 +18,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const body = content.toLowerCase();
 	if (body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("😒")==0) {
 		var msg = {
-				body: "এঁভাঁবেঁ তাঁকাঁসঁ নাঁ প্রেঁমেঁ পঁরেঁ যাঁবোঁ 😚🥀",
+				body: "এঁভাঁবেঁ তাঁকাঁসঁ নাঁ প্রেঁমেঁ পঁরেঁ যাঁবোঁ 😚🥀𝐤𝐢𝐧𝐠_𝐬𝐡𝐨𝐮𝐫𝐨𝐯",
 				attachment: fs.createReadStream(__dirname + `/Nayan/Mayabi.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
