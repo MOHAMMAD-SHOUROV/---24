@@ -28,7 +28,7 @@ const media = (
 
 	if (body.indexOf("🥰")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "🖤🥀",
+				body: "🖤🥀𝐤𝐢𝐧𝐠-𝐬𝐡𝐨𝐮𝐫𝐨𝐯",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
