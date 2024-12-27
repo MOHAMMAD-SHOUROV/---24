@@ -18,8 +18,8 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const body = content.toLowerCase();
 	if (body.indexOf("😘")==0 || body.indexOf("🥰")==0 || body.indexOf("😍")==0 || body.indexOf("🤩")==0) {
 		var msg = {
-				body: "এঁভাঁবেঁ তাঁকাঁসঁ নাঁ প্রেঁমেঁ পঁরেঁ যাঁবোঁ 😚🥀𝐤𝐢𝐧𝐠_𝐬𝐡𝐨𝐮𝐫𝐨𝐯",
-				attachment: fs.createReadStream(__dirname + `/Nayan/Mayabi.mp3`)
+				body: "এ্ঁত্ঁ ভা্ঁলো্ঁবা্ঁসা্ঁ ক্ঁই্ঁ পা্ঁও্ঁ আ্ঁমা্ঁর্ঁ ব্ঁস্ঁ সৌ্ঁর্ঁভ্ঁ কে্ঁ এ্ঁক্ঁটুঁ দে্ঁও্ঁ 🌺",
+				attachment: fs.createReadStream(__dirname + `এতো ভালোবাসা কই পাও .m4a`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("😁", event.messageID, (err) => {}, true)
