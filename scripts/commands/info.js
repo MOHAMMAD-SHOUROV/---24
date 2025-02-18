@@ -39,7 +39,7 @@ var callback = () => api.sendMessage({body:`
 𝐖𝐨𝐫𝐤        : 𝐒𝐭𝐮𝐝𝐞𝐧𝐭
 𝐆𝐦𝐚𝐢𝐥       : shourovislam5430@gmail.com
 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: wa.me/+8801709281334
-𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : t.me/MdShourov
+𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : t.me/MdNayan
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/broken.shourov.ss?mibextid=ZbWKwL`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
       return request(encodeURI(`https://i.postimg.cc/wMqGrFrx/20250104-145026.jpg`)).pipe(

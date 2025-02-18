@@ -13,7 +13,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("king shourov")==0 || (event.body.indexOf("Shourov")==0 || (event.body.indexOf("shourov")==0 || (event.body.indexOf("সৌরভ")==0)))) {
+	if (event.body.indexOf("king shourov")==0 || (event.body.indexOf("Nayan")==0 || (event.body.indexOf("shourov")==0 || (event.body.indexOf("সৌরভ")==0)))) {
 		var msg = {
 				body: " কিরে এতো ডাকিস কেন আমার বস বিজি আসে দেখস না গা্ৃ্ঁধা্ঁ 🤬:))"
     }

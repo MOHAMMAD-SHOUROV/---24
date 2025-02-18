@@ -24,7 +24,7 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("সৌরভ")==0 || body.indexOf("shourov")==0 || body.indexOf("love")==0 || body.indexOf("Shourov")==0 || body.indexOf("Sowrov")==0 || body.indexOf("sowrav")==0 || body.indexOf("Shourov")==0 || body.indexOf("SHOUROV")==0 || body.indexOf("Shourov k")==0 || body.indexOf("shourov k")==0) {
+	if (body.indexOf("সৌরভ")==0 || body.indexOf("shourov")==0 || body.indexOf("love")==0 || body.indexOf("Nayan")==0 || body.indexOf("Sowrov")==0 || body.indexOf("sowrav")==0 || body.indexOf("Nayan")==0 || body.indexOf("SHOUROV")==0 || body.indexOf("Nayan k")==0 || body.indexOf("shourov k")==0) {
 		var msg = {
 				body: "𝐊𝐢𝐧𝐠_𝐒𝐡𝐨𝐮𝐫𝐨𝐯",
 				attachment: media
